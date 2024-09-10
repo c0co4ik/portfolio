@@ -1,0 +1,33 @@
+.root {
+	position: relative;
+	left: -90px;
+
+	@media(max-width: 1460px) {
+		left: 0;
+	}
+}
+
+.icon {
+	width: 22px;
+	height: 22px;
+	opacity: 0.3;
+	position: absolute;
+	top: 13px;
+	left: 13px;
+}
+
+.input {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 12px 20px 12px 42px;
+	width: 350px;
+	border-radius: 10px;
+	font-size: 16px;
+
+	@media(max-width: 535px) {
+		width: 230px;
+	}
+
+	&:focus {
+		border: 1px solid rgba(0, 0, 0, 0.2);
+	}
+}
